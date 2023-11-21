@@ -1,333 +1,428 @@
 ---------------------------
 Starting program
+Batch limit is 200
+Sleep time is 0
+All threads started
+First conn was id #96 and started #2
+All threads connected
+Time taken: 8399 ms
+---------------------------
+Starting program
+Batch limit is 200
+Sleep time is 0
+All threads started
+First conn was id #84 and started #41
+All threads connected
+Time taken: 7331 ms
+---------------------------
+Starting program
+Batch limit is 250
+Sleep time is 0
+All threads started
+Program failed at id #47
+---------------------------
+Starting program
+Batch limit is 220
+Sleep time is 0
+All threads started
+Program failed at id #185
+---------------------------
+Starting program
+Batch limit is 210
+Sleep time is 0
+All threads started
+Program failed at id #13
+---------------------------
+Starting program
+Batch limit is 201
+Sleep time is 0
+All threads started
+First conn was id #126 and started #173
+All threads connected
+Time taken: 5369 ms
+---------------------------
+Starting program
+Batch limit is 202
+Sleep time is 0
+All threads started
+First conn was id #8 and started #91
+All threads connected
+Time taken: 5903 ms
+---------------------------
+Starting program
+Batch limit is 203
+Sleep time is 0
+All threads started
+First conn was id #199 and started #199
+All threads connected
+Time taken: 5351 ms
+---------------------------
+Starting program
+Batch limit is 204
+Sleep time is 0
+All threads started
+First conn was id #181 and started #130
+All threads connected
+Time taken: 5076 ms
+---------------------------
+Starting program
+Batch limit is 205
+Sleep time is 0
+All threads started
+Program failed at id #108
+---------------------------
+Starting program
+Batch limit is 300
+Sleep time is 0
+All threads started
+Program failed at id #207
+---------------------------
+Starting program
+Batch limit is 300
+Sleep time is 0
+All threads started
+Program failed at id #260
+---------------------------
+Starting program
+Batch limit is 204
+Sleep time is 0
+All threads started
+Program failed at id #40
+---------------------------
+Starting program
+Batch limit is 203
+Sleep time is 0
+All threads started
+First conn was id #49 and started #37
+All threads connected
+Time taken: 4723 ms
+---------------------------
+Starting program
+Batch limit is 200
+Sleep time is 0
+All threads started
+First conn was id #3 and started #115
+All threads connected
+Time taken: 5328 ms
+---------------------------
+Starting program
+Batch limit is 200
+Sleep time is 0
+All threads started
+First conn was id #85 and started #9
+All threads connected
+Time taken: 7082 ms
+---------------------------
+Starting program
+Batch limit is 200
+Sleep time is 0
+All threads started
+First conn was id #64 and started #62
+All threads connected
+Time taken: 4943 ms
+---------------------------
+Starting program
+Batch limit is 50
+Sleep time is 0
+All threads started
+First conn was id #33 and started #17
+All threads connected
+Time taken: 5378 ms
+---------------------------
+Starting program
+Batch limit is 50
+Sleep time is 0
+All threads started
+First conn was id #20 and started #30
+All threads connected
+Time taken: 5453 ms
+---------------------------
+Starting program
+Batch limit is 10
+Sleep time is 0
+All threads started
+First conn was id #3 and started #7
+All threads connected
+Time taken: 1562 ms
+---------------------------
+Starting program
+Batch limit is 10
+Sleep time is 0
+All threads started
+First conn was id #0 and started #0
+All threads connected
+Time taken: 1749 ms
+---------------------------
+Starting program
+Batch limit is 10
+Sleep time is 0
+All threads started
+First conn was id #3 and started #7
+All threads connected
+Time taken: 1669 ms
+---------------------------
+Starting program
+Batch limit is 10
+Sleep time is 0
+All threads started
+First conn was id #8 and started #2
+All threads connected
+Time taken: 1647 ms
+---------------------------
+Starting program
+Batch limit is 10
+Sleep time is 0
+All threads started
+First conn was id #7 and started #3
+All threads connected
+Time taken: 1680 ms
+---------------------------
+Starting program
+Batch limit is 10
+Sleep time is 0
+All threads started
+First conn was id #1 and started #6
+All threads connected
+Time taken: 1560 ms
+---------------------------
+Starting program
+Batch limit is 50
+Sleep time is 0
+All threads started
+First conn was id #5 and started #45
+All threads connected
+Time taken: 2617 ms
+---------------------------
+Starting program
+Batch limit is 50
+Sleep time is 0
+All threads started
+First conn was id #6 and started #44
+All threads connected
+Time taken: 2494 ms
+---------------------------
+Starting program
+Batch limit is 50
+Sleep time is 0
+All threads started
+First conn was id #24 and started #9
+All threads connected
+Time taken: 2992 ms
+---------------------------
+Starting program
+Batch limit is 50
+Sleep time is 0
+All threads started
+First conn was id #24 and started #15
+All threads connected
+Time taken: 3509 ms
+---------------------------
+Starting program
+Batch limit is 50
+Sleep time is 0
+All threads started
+First conn was id #13 and started #43
+All threads connected
+Time taken: 2709 ms
+---------------------------
+Starting program
 Batch limit is 100
 Sleep time is 0
 All threads started
-First conn was id #9 and started #91
+First conn was id #48 and started #28
+All threads connected
+Time taken: 5245 ms
 ---------------------------
 Starting program
 Batch limit is 100
 Sleep time is 0
 All threads started
-First conn was id #67 and started #65
+First conn was id #22 and started #61
+All threads connected
+Time taken: 3524 ms
 ---------------------------
 Starting program
 Batch limit is 100
 Sleep time is 0
 All threads started
-First conn was id #64 and started #57
----------------------------
-Starting program
-Batch limit is 101
-Sleep time is 2
-All threads started
-Program failed at id#4 who started #4
----------------------------
-Starting program
-Batch limit is 101
-Sleep time is 0
-All threads started
-Program failed at id#72 who started #70
----------------------------
-Starting program
-Batch limit is 99
-Sleep time is 0
-All threads started
-First conn was id #98 and started #60
+First conn was id #92 and started #14
+All threads connected
+Time taken: 6958 ms
 ---------------------------
 Starting program
 Batch limit is 100
 Sleep time is 0
 All threads started
-First conn was id #58 and started #64
+First conn was id #37 and started #56
+All threads connected
+Time taken: 6223 ms
 ---------------------------
 Starting program
 Batch limit is 100
-Sleep time is 15
+Sleep time is 0
 All threads started
-First conn was id #20 and started #20
----------------------------
-Starting program
-Batch limit is 1000
-Sleep time is 15
-First conn was id #64 and started #66
-Program failed at id#84 who started #85
-Program failed at id#106 who started #105
----------------------------
-Starting program
-Batch limit is 1000
-Sleep time is 15
-First conn was id #2 and started #2
-Program failed at id#97 who started #95
+First conn was id #50 and started #84
+All threads connected
+Time taken: 3551 ms
 ---------------------------
 Starting program
 Batch limit is 100
-Sleep time is 15
-All threads started
-First conn was id #33 and started #33
----------------------------
-Starting program
-Batch limit is 100
-Sleep time is 5
-All threads started
-First conn was id #61 and started #61
----------------------------
-Starting program
-Batch limit is 1000
 Sleep time is 0
 All threads started
-Program failed at id#114 who started #133
----------------------------
-Starting program
-Batch limit is 1000
-Sleep time is 0
-All threads started
-Program failed at id#94 who started #93
----------------------------
-Starting program
-Batch limit is 102
-Sleep time is 0
-All threads started
-Program failed at id#44 who started #43
----------------------------
-Starting program
-Batch limit is 101
-Sleep time is 100
-First conn was id #1 and started #1
-All threads started
+First conn was id #77 and started #23
+All threads connected
+Time taken: 4735 ms
 ---------------------------
 Starting program
 Batch limit is 150
-Sleep time is 100
-First conn was id #0 and started #0
-All threads started
----------------------------
-Starting program
-Batch limit is 300
-Sleep time is 100
-First conn was id #6 and started #6
-Program failed at id#145 who started #145
----------------------------
-Starting program
-Batch limit is 300
-Sleep time is 100
-First conn was id #0 and started #0
-Program failed at id#149 who started #149
----------------------------
-Starting program
-Batch limit is 300
-Sleep time is 100
-First conn was id #11 and started #11
-Program failed at id#100 who started #100
----------------------------
-Starting program
-Batch limit is 300
-Sleep time is 100
-First conn was id #5 and started #5
-Program failed at id#100 who started #100
----------------------------
-Starting program
-Batch limit is 300
-Sleep time is 10
-First conn was id #22 and started #22
-Program failed at id#112 who started #113
----------------------------
-Starting program
-Batch limit is 300
-Sleep time is 10
-First conn was id #25 and started #25
-Program failed at id#131 who started #131
----------------------------
-Starting program
-Batch limit is 300
-Sleep time is 2
-All threads started
-First conn was id #100 and started #100
-Program failed at id#127 who started #127
----------------------------
-Starting program
-Batch limit is 300
-Sleep time is 2
-All threads started
-Program failed at id#297 who started #299
----------------------------
-Starting program
-Batch limit is 300
-Sleep time is 2
-All threads started
-Program failed at id#135 who started #135
----------------------------
-Starting program
-Batch limit is 100
-Sleep time is 2
-All threads started
-First conn was id #84 and started #84
----------------------------
-Starting program
-Batch limit is 101
-Sleep time is 2
-All threads started
-Program failed at id#49 who started #49
----------------------------
-Starting program
-Batch limit is 101
-Sleep time is 5
-All threads started
-Program failed at id#80 who started #80
----------------------------
-Starting program
-Batch limit is 101
-Sleep time is 10
-All threads started
-First conn was id #53 and started #53
-Program failed at id#96 who started #96
----------------------------
-Starting program
-Batch limit is 100
-Sleep time is 10
-All threads started
-First conn was id #43 and started #43
----------------------------
-Starting program
-Batch limit is 100
-Sleep time is 10
-All threads started
-First conn was id #79 and started #76
----------------------------
-Starting program
-Batch limit is 100
-Sleep time is 10
-All threads started
-First conn was id #12 and started #12
----------------------------
-Starting program
-Batch limit is 100
-Sleep time is 10
-All threads started
-First conn was id #91 and started #90
----------------------------
-Starting program
-Batch limit is 100
-Sleep time is 10
-All threads started
-First conn was id #57 and started #57
-All threads connected. Program will now exit.
----------------------------
-Starting program
-Batch limit is 100
-Sleep time is 10
-All threads started
-First conn was id #89 and started #89
-All threads connected. Program will now exit.
----------------------------
-Starting program
-Batch limit is 100
 Sleep time is 0
 All threads started
-First conn was id #53 and started #56
----------------------------
-Starting program
-Batch limit is 100
-Sleep time is 1
-All threads started
-First conn was id #30 and started #30
----------------------------
-Starting program
-Batch limit is 100
-Sleep time is 1
-All threads started
-First conn was id #28 and started #28
----------------------------
-Starting program
-Batch limit is 100
-Sleep time is 1
-All threads started
-First conn was id #54 and started #54
----------------------------
-Starting program
-Batch limit is 100
-Sleep time is 1
-All threads started
-First conn was id #85 and started #85
----------------------------
-Starting program
-Batch limit is 100
-Sleep time is 1
-All threads started
-First conn was id #5 and started #5
----------------------------
-Starting program
-Batch limit is 100
-Sleep time is 1
-All threads started
-First conn was id #64 and started #64
----------------------------
-Starting program
-Batch limit is 100
-Sleep time is 1
-All threads started
-First conn was id #40 and started #40
+First conn was id #45 and started #71
 All threads connected
+Time taken: 14337 ms
 ---------------------------
 Starting program
-Batch limit is 100
-Sleep time is 1
-All threads started
-First conn was id #30 and started #30
-All threads connected
----------------------------
-Starting program
-Batch limit is 100
-Sleep time is 1
-All threads started
-First conn was id #4 and started #4
-All threads connected
----------------------------
-Starting program
-Batch limit is 100
+Batch limit is 150
 Sleep time is 0
 All threads started
-First conn was id #9 and started #5
+First conn was id #113 and started #114
 All threads connected
+Time taken: 5042 ms
 ---------------------------
 Starting program
-Batch limit is 100
+Batch limit is 150
 Sleep time is 0
 All threads started
-First conn was id #52 and started #51
+First conn was id #69 and started #58
 All threads connected
+Time taken: 4255 ms
 ---------------------------
 Starting program
-Batch limit is 100
+Batch limit is 150
 Sleep time is 0
 All threads started
-First conn was id #12 and started #6
+First conn was id #43 and started #77
 All threads connected
+Time taken: 13217 ms
 ---------------------------
 Starting program
-Batch limit is 100
+Batch limit is 150
 Sleep time is 0
 All threads started
-First conn was id #34 and started #66
+First conn was id #76 and started #51
 All threads connected
+Time taken: 5384 ms
 ---------------------------
 Starting program
-Batch limit is 100
+Batch limit is 200
 Sleep time is 0
 All threads started
-First conn was id #59 and started #59
+First conn was id #48 and started #45
 All threads connected
+Time taken: 20921 ms
 ---------------------------
 Starting program
-Batch limit is 100
-Sleep time is 10
+Batch limit is 200
+Sleep time is 0
 All threads started
-First conn was id #46 and started #45
+First conn was id #167 and started #133
 All threads connected
+Time taken: 4626 ms
 ---------------------------
 Starting program
-Batch limit is 100
-Sleep time is 50
-First conn was id #0 and started #0
+Batch limit is 200
+Sleep time is 0
 All threads started
+First conn was id #21 and started #110
 All threads connected
+Time taken: 4933 ms
+---------------------------
+Starting program
+Batch limit is 200
+Sleep time is 0
+All threads started
+First conn was id #74 and started #67
+All threads connected
+Time taken: 5165 ms
+---------------------------
+Starting program
+Batch limit is 200
+Sleep time is 0
+All threads started
+First conn was id #7 and started #121
+All threads connected
+Time taken: 5472 ms
+---------------------------
+Starting program
+Batch limit is 205
+Sleep time is 0
+All threads started
+Program failed at id #162
+---------------------------
+Starting program
+Batch limit is 204
+Sleep time is 0
+All threads started
+Program failed at id #52
+---------------------------
+Starting program
+Batch limit is 203
+Sleep time is 0
+All threads started
+First conn was id #53 and started #58
+All threads connected
+Time taken: 12730 ms
+---------------------------
+Starting program
+Batch limit is 203
+Sleep time is 0
+All threads started
+First conn was id #1 and started #111
+All threads connected
+Time taken: 4575 ms
+---------------------------
+Starting program
+Batch limit is 203
+Sleep time is 0
+All threads started
+First conn was id #116 and started #12
+All threads connected
+Time taken: 4856 ms
+---------------------------
+Starting program
+Batch limit is 203
+Sleep time is 0
+All threads started
+First conn was id #184 and started #127
+All threads connected
+Time taken: 5255 ms
+---------------------------
+Starting program
+Batch limit is 203
+Sleep time is 0
+All threads started
+First conn was id #165 and started #160
+All threads connected
+Time taken: 7831 ms
+---------------------------
+Starting program
+Batch limit is 300
+Sleep time is 0
+All threads started
+Program failed at id #236
+---------------------------
+Starting program
+Batch limit is 30
+Sleep time is 0
+All threads started
+First conn was id #4 and started #22
+All threads connected
+Time taken: 2484 ms
+---------------------------
+Starting program
+Batch limit is 200
+Sleep time is 0
+All threads started
+First conn was id #25 and started #85
+All threads connected
+Time taken: 16304 ms

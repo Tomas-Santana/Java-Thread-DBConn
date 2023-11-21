@@ -1,3 +1,4 @@
+package PropertyHandler;
 import java.io.FileInputStream;
 import java.util.Properties;
 import java.text.MessageFormat;
@@ -5,7 +6,7 @@ import java.text.MessageFormat;
 public class PropertyHandler {
     private String dir;
     public PropertyHandler(String filename) {
-        dir = String.format("src/%s.popo", filename);
+        dir = filename;
     }
     public String getProp(String key, String defaultValue) {
         try {

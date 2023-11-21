@@ -1,7 +1,0 @@
-Select-All=Select * from {0}
-
-
-Conn-String = jdbc:postgresql://localhost:5432/{0}?user={1}&password={2}
-User = postgres
-Password = 123456789
-Database = sistema_tesis

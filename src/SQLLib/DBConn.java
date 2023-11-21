@@ -8,6 +8,8 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+import PropertyHandler.PropertyHandler;
+
 import Logging.*;
 
 
@@ -15,6 +17,7 @@ import Logging.*;
 public class DBConn {
     private Connection connection;
     public ArrayList<HashMap<String,Object>> resAL = new ArrayList<>();
+    PropertyHandler prop = new PropertyHandler("src/SQLLib/db.properties");
 
     private static int whodunnit = 0;
     private int iwas;
@@ -23,63 +26,54 @@ public class DBConn {
     public ResultSet rSet;
     public boolean threwError = false;
 
-    private String db_name;
-    private String db_user;
-    private String db_password;
+    private String db_name = prop.getProp("Database", "postgres");
+    private String db_user = prop.getProp("User", "postgres");
+    private String db_password = prop.getProp("Password", "postgres");
+    private String url = prop.getProp("Conn-String", new Object[]{db_name, db_user, db_password}, "Failed");
 
     public static boolean hasSomeoneConnected = false;
 
     private static CustomLogger logger = new CustomLogger("logs/logs.txt");
 
 
-    public DBConn (String db_name, String db_user, String db_password, int id) {
+    public DBConn (int id) {
         this.id = id;
-        this.db_name = db_name;
-        this.db_user = db_user;
-        this.db_password = db_password;
+
     }
 
-    public synchronized boolean Connect() {
+    public boolean Connect() {
         try {
-            iWasHere();
-            String url = "jdbc:postgresql://localhost:5432/" + db_name;
-            Class.forName("org.postgresql.Driver");
-            System.out.println("Conn #" + id + " connecting... It is #" + iwas);
-            this.connection = DriverManager.getConnection(url, db_user, db_password);
-            if (amIFirst()) {
-                System.out.println("Conn #" + id + " connected. It was #" + iwas + " and it is the first one.");
-                logger.log("First conn was id #" + id + " and started #" + iwas);
-            }
+            this.connection = DriverManager.getConnection(url);
             return true;
         } 
         catch (Exception e) {
             System.out.println(e);
-            exitProgram(id, iwas);
+            exitProgram(id);
             threwError = true;
             return false;
         }
         
     }
-    private synchronized static void exitProgram(int id, int iwas) {
-            System.out.println("Error in " + id + " who was #" + iwas);
-            logger.log("Program failed at id#" + id + " who started #" + iwas);
+    public boolean Disconnect() {
+        try {
+            this.connection.close();
+            return true;
+        } 
+        catch (Exception e) {
+            System.out.println(e);
+            exitProgram(id);
+            threwError = true;
+            return false;
+        }
+        
+    }
+    private synchronized static void exitProgram(int id) {
+            System.out.println("Error in " + id);
+            logger.log("Program failed at id #" + id);
             System.exit(1);
 
-    }
 
-    private synchronized void iWasHere() {
-        this.iwas = whodunnit;
-        whodunnit++;
     }
-
-    private synchronized static boolean amIFirst() {
-        if (!hasSomeoneConnected) {
-            hasSomeoneConnected = true;
-            return true;
-        }
-        else return false;
-    }
-
     public ResultSet QueryFromString(String query) {
         try {
             Statement st = this.connection.createStatement();

@@ -5,9 +5,8 @@ import Logging.CustomLogger;
 public class App {
     public static void main(String[] args) throws Exception {
         CustomLogger logger = new CustomLogger("logs/logs.txt");
-
-        int batchLimit = 100;
-        int sleepTime = 50;
+        int batchLimit = 200;
+        int sleepTime = 0;
         logger.log("---------------------------");
         logger.log("Starting program");
         logger.log("Batch limit is " + batchLimit);
@@ -15,6 +14,8 @@ public class App {
 
     
         ArrayList<ThreadConn> threadConns = new ArrayList<ThreadConn>();
+
+        long start = System.currentTimeMillis();
 
         for (int batchIndex = 0; batchIndex < batchLimit; batchIndex++) {
             ThreadConn threadConn = new ThreadConn(batchIndex);
@@ -30,6 +31,11 @@ public class App {
             if (ThreadConn.howManyConnected == batchLimit) {
                 System.out.println("All threads connected");
                 logger.log("All threads connected");
+                long end = System.currentTimeMillis();
+                long time = (end - start);
+
+                System.out.println("Time taken: " + time + " ms");
+                logger.log("Time taken: " + time + " ms");
                 System.exit(0);
             }
             else Thread.sleep(100);
