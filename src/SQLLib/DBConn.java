@@ -19,8 +19,6 @@ public class DBConn {
     public ArrayList<HashMap<String,Object>> resAL = new ArrayList<>();
     PropertyHandler prop = new PropertyHandler("src/SQLLib/db.properties");
 
-    private static int whodunnit = 0;
-    private int iwas;
     public int id;
 
     public ResultSet rSet;
